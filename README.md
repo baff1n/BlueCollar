@@ -1,1 +1,1 @@
-"# BluCollar" 
+"# BlueCollar" 
