@@ -1,0 +1,12 @@
+/*=================================[ Variables ]========================================*/
+
+:root {
+	--main-text__color: #616161;
+	--red-accent__color: #EC5863;
+	--gray-accent__color: #b0b0b0;
+	--red-hover__color: #f37a82;
+	--blue-accent__color: #4285F4;
+	--blue-hover__color: #639dfa;
+	--blue-mobile-menu_bg__color: #9984f3;
+	--section-white-bg__color: #FAFBFD;
+}
