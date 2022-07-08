@@ -33,6 +33,7 @@ body {
 	display: inline-block;
 	position: relative;
 	background-color: #F4F4F4;
+	margin: 0px 0px 22px 0px;
 }
 .block__header:before {
 	position: absolute;
@@ -59,6 +60,7 @@ body {
 	letter-spacing: 0.36px;
 	color: #1C2752;
 	text-transform: capitalize;
+	margin: 0px 0px 12px 0px;
 }
 
 /*=================================[ HEADER ]========================================*/
@@ -330,13 +332,12 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	max-width: 832px;
+	padding: 140px 0px 0px 0px;
 }
 .offer__block-header {
-	margin: 150px 0px 20px 0px;
 }
 
 .offer__title {
-	margin: 0px 0px 12px 0px;
 }
 .offer__header p {
 	display: inline-block;
@@ -407,7 +408,6 @@ body {
 .offer__slider-content {
 }
 .offer__slider-block-header {
-	margin: 0px 0px 22px 0px;
 }
 .offer__slider-title {
 	margin: 0px 0px 12px 0px;
@@ -451,12 +451,8 @@ body {
 }
 .services__block-header {
 	background-color: #fff;
-	margin: 0px 0px 22px 0px;
-}
-.block__header {
 }
 .services__title {
-	margin: 0px 0px 12px 0px;
 }
 
 .services__text {
@@ -560,10 +556,8 @@ body {
 	margin: 0px 0px 40px 0px;
 }
 .choose-us__block-header {
-	margin: 0px 0px 23px 0px;
 }
 .choose-us__title {
-	margin: 0px 0px 11px 0px;
 	max-width: 506px;
 }
 .choose-us__text {
@@ -602,4 +596,52 @@ body {
 .content-choose-us__text {
 	display: inline-block;
 	max-width: 432px;
+}
+/*=================================[ Gallery ]========================================*/
+.projects {
+	background-color: #1C2752;
+	padding: 150px 0px;
+}
+.projects-container {
+	max-width: 1430px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+.projects__body {
+}
+.projects__header {
+	text-align: center;
+	margin: 0px 0px 50px 0px;
+}
+.projects__header-block {
+}
+.projects__title {
+	color: #fff;
+}
+.project__slider {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 0px 5px;
+}
+.project__slider-item {
+	background-color: #fff;
+	margin: 21px 0px;
+	padding: 21px;
+	text-align: center;
+}
+.item-project-slider {
+}
+.item-project-slider__title {
+	font-family: 'Mulish';
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 38px;
+	letter-spacing: 0.36px;
+	text-transform: capitalize;
+	color: #1C2752;
+	margin: 30px 0px 0px 0px;
+}
+.item-project-slider__text {
+	color: #7E7E7E;
 }
