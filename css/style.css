@@ -58,6 +58,7 @@ body {
 	line-height: 58px;
 	letter-spacing: 0.36px;
 	color: #1C2752;
+	text-transform: capitalize;
 }
 
 /*=================================[ HEADER ]========================================*/
@@ -321,6 +322,7 @@ body {
 .offer {
 	background-color: #FFB342;
 	margin-top: 140px;
+	position: relative;
 }
 .offer__container {
 }
@@ -389,14 +391,18 @@ body {
 /*---------------------------------*/
 
 .offer__slider {
+	position: relative;
 	display: flex;
 	align-items: center;
 	background-color: #fff;
 	padding: 70px 60px;
 	gap: 75px;
+	z-index: 2;
+	box-shadow:  0px 10px 15px rgba(0,0,0,0.1);
 }
 .offer__slider-body {
 	display: flex;
+	gap: 75px;
 }
 .offer__slider-content {
 }
@@ -420,4 +426,180 @@ body {
 }
 .offer__slider-image {
 	text-align: center;
+}
+.offer__white-bottom {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	bottom: 0;
+	left: 0;
+	background-color: #f4f4f4;
+}
+/*=================================[ Services ]========================================*/
+
+.services {
+	padding: 153px 0px 140px 0px;
+	background-color: #f4f4f4;
+}
+.services__container {
+}
+.services__body {
+}
+.services__header {
+	text-align: center;
+	margin: 0px 0px 50px 0px;
+}
+.services__block-header {
+	background-color: #fff;
+	margin: 0px 0px 22px 0px;
+}
+.block__header {
+}
+.services__title {
+	margin: 0px 0px 12px 0px;
+}
+
+.services__text {
+	display: inline-block;
+	max-width: 819px;
+	color: #7e7e7e;
+}
+.services__grid {
+	display: flex;
+	gap: 30px;
+}
+.services__grid-column {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;	
+}
+.services__grid-item {
+	background-color: #1C2752;
+	padding: 50px 35px 50px 46px;
+}
+.item-grid {
+}
+.item-grid__image {
+	margin: 0px 0px 20px 0px;
+}
+.item-grid__title {
+	font-family: 'Mulish';
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 38px;
+	letter-spacing: 0.36px;
+	text-transform: capitalize;
+	color: #FFB342;
+	margin: 0px 0px 15px 0px;
+}
+.item-grid__text {
+	color: #D2D2D2;
+	margin: 0px 0px 22px 0px;
+}
+.item-grid__link {
+	color: #fff;
+}
+
+/*=================================[ Choose Us ]========================================*/
+
+.choose-us {
+}
+.choose-us-container {
+	max-width: 1470px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+.choose-us__body {
+	display: flex;
+	align-items: center;
+	gap: 70px;
+}
+.choose-us__left {
+	flex: 0 1 50%;
+	background-image: url(../img/choose-us/left-bg.jpg);
+	background-repeat: no-repeat;
+	padding: 140px 80px;
+}
+.choose-us__left-substrate {
+	background: rgba(28, 39, 82, 0.86);
+	padding: 100px 80px 120px;
+}
+.substrate-left {
+}
+.substrate-left__item:not(:last-child) {
+	margin: 0px 0px 20px 0px;
+}
+.item-substrate {
+	display: flex;
+	font-family: 'Mulish';
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 35px;
+	letter-spacing: 0.36px;
+}
+.item-substrate__value {
+	flex-basis: 110px;
+	font-size: 24px;
+	color: #1C2752;
+	background-color: #FFB342;
+	padding: 16px 21px 0;
+}
+.item-substrate__text {
+	flex: 1 1 auto;
+	color: #FFFFFF;
+	padding: 16px 0px 16px 20px;
+	border: 1px solid #fff;
+	border-left: transparent;
+}
+/*---------------------------------*/
+.choose-us__right {
+	flex: 0 1 50%;
+	color: #7E7E7E;
+}
+.choose-us__header {
+	margin: 0px 0px 40px 0px;
+}
+.choose-us__block-header {
+	margin: 0px 0px 23px 0px;
+}
+.choose-us__title {
+	margin: 0px 0px 11px 0px;
+	max-width: 506px;
+}
+.choose-us__text {
+	display: inline-block;
+	max-width: 577px;
+}
+.choose-us__content {
+}
+.content-choose-us {
+}
+.content-choose-us__item {
+	position: relative;
+	padding: 0px 0px 0px 52px;
+}
+.content-choose-us__item:not(:last-child) {
+	margin: 0px 0px 25px 0px;
+}
+.content-choose-us__item::before {
+	position: absolute;
+	background-image: url(../img/choose-us/choose-us-icon.svg);
+	width: 32px;
+	height: 32px;
+	top: 0;
+	left: 0;
+	content: '';
+}
+.content-choose-us__title {
+	font-family: 'Mulish';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	letter-spacing: 0.36px;
+	color: #1C2752;
+	margin: 0px 0px 8px 0px;
+}
+.content-choose-us__text {
+	display: inline-block;
+	max-width: 432px;
 }
