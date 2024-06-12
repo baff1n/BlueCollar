@@ -46,7 +46,6 @@ body {
 .block__header span {
 	padding: 0px 20px 0px 53px;
 	color: #1C2752;
-	text-transform: capitalize;
 }
 
 /*------------Block Title---------------------*/
@@ -58,7 +57,6 @@ body {
 	line-height: 58px;
 	letter-spacing: 0.36px;
 	color: #1C2752;
-	text-transform: capitalize;
 }
 
 /*=================================[ HEADER ]========================================*/
@@ -105,10 +103,14 @@ body {
 	min-height: 128px;
 	align-items: center;
 }
-.logo {
+.logo svg {
+	width: 50px;
+	height: 50px;
 }
-.logo__image {
+.logo path {
+	fill: #293e9b;
 }
+
 .header__middle-contacts {
 	display: flex;
 }
@@ -219,10 +221,11 @@ body {
 	color: #fff;
 }
 .header__present-subtitle {
-	text-transform: capitalize;
 	background: rgba(255, 255, 255, 0.2);
-	padding: 0px 40px 0px 20px;
+	padding: 8px 40px 8px 20px;
 	max-width: 650px;
+	border-radius: 3px;
+	font-size: 32px;
 }
 .header__present-subtitle span {
 	margin-left: 5px;
@@ -231,12 +234,11 @@ body {
 	font-family: 'Mulish';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 60px;
-	line-height: 78px;
+	font-size: 54px;
+	line-height: 69px;
 	letter-spacing: 1.2px;
-	text-transform: capitalize;
 	max-width: 712px;
-	margin: 50px 0px 30px 0px;
+	margin: 50px 0px 50px 0px;
 }
 .button {
 }
@@ -488,7 +490,6 @@ body {
 	font-size: 25px;
 	line-height: 38px;
 	letter-spacing: 0.36px;
-	text-transform: capitalize;
 	color: #FFB342;
 	margin: 0px 0px 15px 0px;
 }
