@@ -1,0 +1,99 @@
+/*=================================[ Welcome ]========================================*/
+.welcome {
+	position: relative;
+	min-height: 100vh;
+	padding: 140px 0;
+	background: #DCEFFD;
+	z-index: 20;
+}
+
+.welcome:before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-image: url(../img/choose-us/choose-us-bg.png);
+	background-size: cover;
+	background-position: 0 0;
+	transform: rotate(360deg) ;
+	opacity: .4;
+	z-index: 1;
+}
+
+.welcome__container {
+	position: relative;
+	z-index: 20;
+}
+.welcome__body {
+	display: flex;
+	align-items: center;
+	gap: 80px;
+}
+.welcome__image img {
+	max-width: 600px;
+}
+.welcome__content {
+}
+.welcome__content-header {
+	margin: 0px 0px 22px 0px;
+}
+
+/*---------------------------------*/
+.welcome__content-title {
+	margin: 0px 0px 12px 0px;
+}
+
+.welcome__content-text {
+	color: #7E7E7E;
+}
+.welcome__content-text span {
+	display: block;
+	font-size: 17px;
+	margin: 10px 0px 17px 0px;
+}
+
+/*---------------------------------*/
+.welcome__content-advantages {
+}
+.advantages {
+	display: flex;
+	gap: 40px;
+	align-items: center;
+	margin: 20px 0px 0px 0px;
+}
+.advantages-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background-color: #F4F4F4;
+	padding: 24px 50px 40px 50px;
+}
+.item-card-title {
+	font-family: 'Mulish';
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 88px;
+	color: #FFB342;
+	margin: 0px 0px 16px 0px;
+}
+.advantages-card p {
+	font-family: 'Mulish';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 26px;
+	letter-spacing: 0.36px;
+	max-width: 112px;
+	color: #1C2752;
+}
+.advantages-list {
+}
+.advantages-list-item {
+	font-size: 17px;
+	color: #7E7E7E;
+}
+.advantages-list-item:not(:last-child) {
+	margin: 0px 0px 10px 0px;
+}

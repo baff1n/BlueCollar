@@ -9,7 +9,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css?family=Inter:regular,700,700italic&display=swap" rel="stylesheet" />
-	<link href="https://fonts.googleapis.com/css?family=Mulish:regular&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Mulish:regular,500&display=swap" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/refresh.css">
 	<link rel="stylesheet" href="css/vars.css">
@@ -20,7 +20,7 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">
+		<header class="header" id="header">
 			<div class="header__wrapper">
 				<div class="header__container">
 					<div class="header__middle">
@@ -62,10 +62,9 @@
 				<div class="nav__body">
 					<ul class="nav__list">
 						<li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">Продукция</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">Блог</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">Вакансии</a></li>
+						<li class="nav__item"><a href="#welcome" class="nav__link">О нас</a></li>
+						<li class="nav__item"><a href="#services" class="nav__link">Продукция</a></li>
+						<li class="nav__item"><a href="#choose-us" class="nav__link">Преимущества</a></li>
 						<li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
 					</ul>
 					<div class="button__wrap">
@@ -91,11 +90,11 @@
 			</div>
 		</header>
 		<main class="main">
-			<section class="welcome">
+			<section class="welcome" id="welcome">
 				<div class='welcome__container'>
 					<div class="welcome__body">
 						<div class="welcome__image">
-							<img src="img/choose-us/power-supply.webp" alt="Welcome">
+							<img src="img/choose-us/power-supply-2.png" alt="Welcome">
 						</div>
 						<div class="welcome__content">
 							<div class="welcome__content-header block__header">
@@ -110,178 +109,115 @@
 					</div>
 				</div>
 			</section>
-			<section class="offer">
-				<div class='offer__container'>
-					<div class="offer__header">
-						<div class="offer__block-header block__header">
-							<span>What We Offer</span>
-						</div>
-						<h2 class="offer__title block__title">Professional Main Services</h2>
-						<p>We have extensive experience of domestic and business electrical installations and no job is too small.
-							Our
-							customers value our professionalism, work ethic and our competitive prices.</p>
-						<ul class="offer__buttons">
-							<li class="offer__button commercial-btn offer__button--active">
-								<a href="#" class="offer__button-link">Commercial</a>
-							</li>
-							<li class="offer__button residental-btn">
-								<a href="#" class="offer__button-link">Residental</a>
-							</li>
-							<li class="offer__button industrial-btn">
-								<a href="#" class="offer__button-link">Industrial</a>
-							</li>
-						</ul>
-					</div>
-					<div class="offer__slider">
-						<div class='offer-slider__container'>
-							<div class="offer__slider-body">
-								<div class="offer__slider-content">
-									<div class="offer__slider-block-header block__header">
-										<span>Electrical installation</span>
-									</div>
-									<h2 class="offer__slider-title block__title">Commercial</h2>
-									<div class="offer__slider-text">
-										<p>Electrical & Maintenance Services Ltd offers a full range of electrical services to suit your needs – from moving a light switch to complete house rewires.</p>
-										<p>In addition to providing fully qualified, competent electricians in and around London, the company also runs an electrical wholesale shop.</p>
-									</div>
-									<a href="#" class="offer__slider-button button">Read More</a>
-								</div>
-								<div class="offer__slider-image">
-									<img src="img/offer/offer-slider/slider-image.jpg" alt="Slider Image">
-								</div>
-							</div>
-						</div>
-					</div>
-				<div class="offer__white-bottom"></div>
-				</div>
-			</section>
-			<section class="services">
+			<section class="services" id="services">
 				<div class='services__container'>
 					<div class="services__body">
 						<div class="services__header">
 							<div class="services__block-header block__header">
-								<span>Area Of Service</span>
+								<span>Наша продукция</span>
 							</div>
-							<h2 class="services__title block__title">Our services</h2>
-							<p class="services__text">We offers a comprehensive range of electrical services for domestic and commercial properties at a reasonable price.</p>
+							<h2 class="services__title block__title">Продукция Синтез Электро</h2>
+							<!-- <p class="services__text">Мы предлагаем широкий спектр оборудования под любые потребности современного рынка электроприборов.</p> -->
 						</div>
 						<div class="services__grid">
 							<div class="services__grid-column">
 								<div class="services__grid-item item-grid">
 									<div class="item-grid__image">
-										<img src="img/services/grid-img/grid-img-1.svg" alt="Service Image">
+										<img src="img/products/1.webp" alt="Service Image">
 									</div>
 									<div class="item-grid__title">
-										Air condition service
+										Встраиваемое бескорпусное исполнение
 									</div>
-									<p class="item-grid__text">Services are able to service your entire electrical infrastructure from Thermal Imaging of your air condition from switch boards.</p>
-									<a href="#" class="item-grid__link">View More</a>
+									<ul class="item-grid__list">
+										<li class="item-grid__element">Выходная мощность от 30 до 300 Вт</li>
+										<li class="item-grid__element">Изоляция «вход-выход» 4 кВ</li>
+										<li class="item-grid__element">Уровень защиты 2 х МОРР</li>
+										<li class="item-grid__element">Низкий уровень радиопомех</li>
+										<li class="item-grid__element">Низкий ток утечки</li>
+										<li class="item-grid__element">Комплекс защит</li>
+										<li class="item-grid__element">Гарантия 3 года</li>
+									</ul>
+									<a href="#" class="item-grid__link">Открыть каталог</a>
 								</div>
+							</div>
+							<div class="services__grid-column">
 								<div class="services__grid-item item-grid">
 									<div class="item-grid__image">
-										<img src="img/services/grid-img/grid-img-2.svg" alt="Service Image">
+										<img src="img/products/2.webp" alt="Service Image">
 									</div>
 									<div class="item-grid__title">
-										Electrical installation
+										Внешние блоки электропитания
 									</div>
-									<p class="item-grid__text">The art electrical installations that provide all the necessary electrical solutions to suit your business, home or industrial premises.</p>
-									<a href="#" class="item-grid__link">View More</a>
+									<ul class="item-grid__list">
+										<li class="item-grid__element">Соответствие 2 х МОРР по ГОСТ Р МЭК 60 601−1</li>
+										<li class="item-grid__element">Выходная мощность от 5 до 150 Вт</li>
+									</ul>
+									<a href="#" class="item-grid__link">Открыть каталог</a>
 								</div>
 
 							</div>
 							<div class="services__grid-column">
 								<div class="services__grid-item item-grid">
 									<div class="item-grid__image">
-										<img src="img/services/grid-img/grid-img-4.svg" alt="Service Image">
+										<img src="img/products/3.webp" alt="Service Image">
 									</div>
 									<div class="item-grid__title">
-										Security System
+										Индивидуальные разработки
 									</div>
-									<p class="item-grid__text">Utilized for measuring flow, temperature level & pressure in the manufacturing industry array of technology is ensure productivity.</p>
-									<a href="#" class="item-grid__link">View More</a>
-								</div>
-								<div class="services__grid-item item-grid">
-									<div class="item-grid__image">
-										<img src="img/services/grid-img/grid-img-5.svg" alt="Service Image">
-									</div>
-									<div class="item-grid__title">
-										Service & maintenance
-									</div>
-									<p class="item-grid__text">Electrical Services are able to service your entire electrical infrastructure from Thermal Imaging of your switch boards.</p>
-									<a href="#" class="item-grid__link">View More</a>
-								</div>
-
-							</div>
-							<div class="services__grid-column">
-								<div class="services__grid-item item-grid">
-									<div class="item-grid__image">
-										<img src="img/services/grid-img/grid-img-4.svg" alt="Service Image">
-									</div>
-									<div class="item-grid__title">
-										Security System
-									</div>
-									<p class="item-grid__text">Utilized for measuring flow, temperature level & pressure in the manufacturing industry array of technology is ensure productivity.</p>
-									<a href="#" class="item-grid__link">View More</a>
-								</div>
-								<div class="services__grid-item item-grid">
-									<div class="item-grid__image">
-										<img src="img/services/grid-img/grid-img-5.svg" alt="Service Image">
-									</div>
-									<div class="item-grid__title">
-										Service & maintenance
-									</div>
-									<p class="item-grid__text">Electrical Services are able to service your entire electrical infrastructure from Thermal Imaging of your switch boards.</p>
-									<a href="#" class="item-grid__link">View More</a>
-								</div>
-
+									<ul class="item-grid__list">
+										<li class="item-grid__element">Для физиотерапевтического оборудования</li>
+										<li class="item-grid__element">Для аппаратов УЗИ</li>
+										<li class="item-grid__element">Для реанимационного оборудования</li>
+										<li class="item-grid__element">Для эндоскопии</li>
+										<li class="item-grid__element">Для прочей медтехники</li>
+									</ul>
+									<a href="#" class="item-grid__link">Связаться с нами</a>
+								</div>	
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="choose-us">
+			<section class="choose-us" id="choose-us">
 				<div class="choose-us-container">
 					<div class="choose-us__body">
 						<div class="choose-us__left">
 							<div class="choose-us__left-substrate substrate-left">
 								<div class="substrate-left__item item-substrate">
-									<div class="item-substrate__value">3956</div>
-									<div class="item-substrate__text">Project Done</div>
+									<div class="item-substrate__value">Более 45000</div>
+									<div class="item-substrate__text">единиц реализованной продукции</div>
 								</div>
 								<div class="substrate-left__item item-substrate">
-									<div class="item-substrate__value">854</div>
-									<div class="item-substrate__text">People Working</div>
+									<div class="item-substrate__value">17</div>
+									<div class="item-substrate__text">Крупнейших бизнес-партнёров</div>
 								</div>
 								<div class="substrate-left__item item-substrate">
-									<div class="item-substrate__value">265</div>
-									<div class="item-substrate__text">Business Partners</div>
-								</div>
-								<div class="substrate-left__item item-substrate">
-									<div class="item-substrate__value">845+</div>
-									<div class="item-substrate__text">Happy Customers</div>
+									<div class="item-substrate__value">9999</div>
+									<div class="item-substrate__text">Счастливых клиентов</div>
 								</div>
 							</div>
 						</div>
 						<div class="choose-us__right">
 							<div class="choose-us__header">
 								<div class="choose-us__block-header block__header">
-									<span>Why Choose Us</span>
+									<span>Почему мы?</span>
 								</div>
-								<h2 class="choose-us__title block__title">Few Reasons Why You Should Choose Us</h2>
-								<p class="choose-us__text">We are offering the following information's about us that what we actually do in the electrical sector. To Improve our customers’ lives by providing creative and cost-effective solutions to their needs.</p>
+								<h2 class="choose-us__title block__title">Несколько причин почему выбирают нас</h2>
+								<p class="choose-us__text">Предлагаем Вам следующую информацию о&nbsp;нас и&nbsp;о&nbsp;том, чем мы&nbsp;занимаемся в&nbsp;электротехническом секторе.</p>
 							</div>
 							<div class="choose-us__content content-choose-us">
 								<div class="content-choose-us__item">
-									<h4 class="content-choose-us__title">35 Years Experience</h4>
-									<p class="content-choose-us__text">Effective communication is the key to success for any business. From our office staff, to our field.</p>
+									<h4 class="content-choose-us__title">Колоссальный опыт</h4>
+									<p class="content-choose-us__text">Эффективная коммуникация является ключом к&nbsp;успеху любого бизнеса. Отработанная годами система работы коллектива&nbsp;&mdash; залог надёжности.</p>
 								</div>
 								<div class="content-choose-us__item">
-									<h4 class="content-choose-us__title">Excellence Certificate</h4>
-									<p class="content-choose-us__text">We understand fully that your time is of extreme value. We are committed to meeting deadlines.</p>
+									<h4 class="content-choose-us__title">Стандарты качества</h4>
+									<p class="content-choose-us__text">Мы&nbsp;строго соблюдаем действующие национальные электротехнические нормы и&nbsp;правила и&nbsp;регулярно проводим внутренние собрания.
+									</p>
 								</div>
 								<div class="content-choose-us__item">
-									<h4 class="content-choose-us__title">Affordable Price</h4>
-									<p class="content-choose-us__text">We adhere strictly to the current National Electrical Code, and we conduct regular in-house sessions.</p>
+									<h4 class="content-choose-us__title">Сроки поставки</h4>
+									<p class="content-choose-us__text">Строго соблюдаем все договорённости с&nbsp;клиентами, обеспечиваем своевременные поставки продукции заказчику.</p>
 								</div>
 							</div>
 						</div>
@@ -292,8 +228,9 @@
 		<footer class="footer">
 			Footer
 		</footer>
+		<div class="btn-up btn-up_hide"></div>
 	</div>
-
+	<script src="index.js"></script>
 </body>
 
 </html>
