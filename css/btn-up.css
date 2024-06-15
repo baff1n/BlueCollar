@@ -1,28 +1,18 @@
 .btn-up {
-  /* фиксированное позиционирование */
   position: fixed;
-  /* цвет фона */
-  background-color: var(--main-blue);
-  /* расстояние от правого края окна браузера */
   right: 20px;
-  /* расстояние от нижнего края окна браузера */
   bottom: 0;
-  /* скругление верхнего левого угла */
   border-top-left-radius: 8px;
-  /* скругление верхнего правого угла */
   border-top-right-radius: 8px;
-  /* вид курсора */
   cursor: pointer;
-  /* отображение элемента как flex */
   display: flex;
-  /* выравниваем элементы внутри элемента по центру вдоль поперечной оси */
   align-items: center;
-  /* выравниваем элементы внутри элемента по центру вдоль главной оси */
   justify-content: center;
-  /* ширина элемента */
   width: 60px;
-  /* высота элемента */
   height: 50px;
+	background-image: var(--special-hover-bgi);
+	background-size: 300% 100%;
+	transition: all .4s ease-in-out;
 	z-index: 1000;
 }
 
@@ -41,6 +31,7 @@
 
 @media (hover: hover) and (pointer: fine) {
   .btn-up:hover {
-    background-color: #1C2752; /* цвет заднего фона при наведении */
+		background-position: 99% 0;
+		transition: all .4s ease-in-out;
   }
 }
