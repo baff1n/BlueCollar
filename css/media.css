@@ -131,12 +131,22 @@
 	}
 
 	.header__present-subtitle {
+		justify-content: center;
+	}
+
+	.header__present-subtitle svg {
 		display: none;
 	}
 
+	.header__present-subtitle span {
+		margin-left: 0;
+		font-size: 18px;
+	}
+
 	.header__present-title {
+		font-size: 30px;
 		line-height: 1.2;
-		font-size: 34px;
+		margin-top: 15px;
 	}
 	.header__middle {
 		min-height: 80px;
@@ -168,6 +178,11 @@
 	.services {
 		padding: 60px 0;
 	}
+
+	.services__block-header span {
+		font-size: 16px;
+	}
+
 	.services__title {
 		font-size: 36px;
 		line-height: 1.2;
@@ -216,6 +231,10 @@
 
 	.contacts {
 		padding: 60px 0;
+	}
+
+	.contacts__block-header span {
+		font-size: 16px;
 	}
 
 	.contacts__title {

@@ -224,7 +224,7 @@
 
 .header__wrapper {
 	position: relative;
-	background-image: url(../img/header/header-bg/header-bg.png);
+	background-image: url(../img/header/header-bg/header-bg.webp);
 	background-size: cover;
 	background-position: top;
 	padding-bottom: 80px;

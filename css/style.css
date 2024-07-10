@@ -48,7 +48,7 @@ body {
 }
 .block__header:before {
 	position: absolute;
-	background-image: url(../img/welcome-icon.png);
+	background-image: url(../img/welcome/welcome-icon.png);
 	background-position: center;
 	background-size: cover;
 	width: 23px;
