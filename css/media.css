@@ -118,9 +118,12 @@
 @media (max-width: 540px) {
 	.logo svg {
 		box-shadow: var(--main-box-shadow);
+		transform: scale(.8);
 	}
 	.link__title {
 		font-size: 18px;
+		margin-left: 10px;
+		line-height: 1.2;
 	}
 	.header__present-body {
 		text-align: center;
@@ -142,7 +145,9 @@
 		gap: 15px;
 		padding: 10px 0;
 	}
-
+	.header__main {
+		max-width: 210px;
+	}
 	.contacts__item-iconwrap {
 		width: 40px;
 		height: 40px;
