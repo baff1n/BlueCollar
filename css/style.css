@@ -30,7 +30,6 @@ body {
 	min-height: 100%;
 }
 .main {
-	flex: 1 1 auto;
 	margin-top: -10px;
 }
 /*---------------------------------*/
