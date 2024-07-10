@@ -19,6 +19,19 @@
 
 
 	@media (max-width: 768px) {
+		.header__wrapper {
+			padding-bottom: 0;
+			margin-bottom: 0;
+			z-index: 1000;
+		}
+		.header__wrapper:after {
+			opacity: 0;
+		}
+
+		.header__present-wrapper {
+			margin-top: 0;
+		}
+		
 		.header__middle {
 			min-height: 100px;
 		}
