@@ -1,9 +1,5 @@
 @media (max-width: 1120px) {
 
-	[class*="__container"] {
-		padding: 0px 25px;
-	}
-
 	.contacts__item-text {
 		display: none;
 	}
@@ -35,6 +31,10 @@
 			padding: 10px;
 		}
 
+		.header__middle-contacts::after {
+			display: none;
+		}
+
 		.contacts__item-iconwrap {
 			width: 50px;
 			height: 50px;
@@ -52,7 +52,11 @@
 		.welcome {
 			padding: 100px 0;
 		}
-
+		
+		.welcome__image img {
+			max-width: 400px;
+			height: auto;
+		}
 		.welcome__content {
 			display: flex;
 			flex-direction: column;
@@ -112,9 +116,11 @@
 }
 
 @media (max-width: 540px) {
-
+	.logo svg {
+		box-shadow: var(--main-box-shadow);
+	}
 	.link__title {
-		font-size: 16px;
+		font-size: 18px;
 	}
 	.header__present-body {
 		text-align: center;
@@ -128,6 +134,25 @@
 	.header__present-title {
 		line-height: 1.2;
 		font-size: 34px;
+	}
+	.header__middle {
+		min-height: 80px;
+	}
+	.header__middle-contacts {
+		gap: 15px;
+		padding: 10px 0;
+	}
+
+	.contacts__item-iconwrap {
+		width: 40px;
+		height: 40px;
+		padding: 10px 11px;
+		box-shadow: var(--main-box-shadow);
+	}
+
+	.contacts__item-iconwrap svg {
+		width: 18px;
+		height: 18px;
 	}
 
 	.welcome__content-title {
@@ -195,8 +220,5 @@
 }
 
 @media (min-width: 768px) {
-	.welcome__image img {
-		max-width: 400px;
-		height: auto;
-	}
+
 }
