@@ -1,8 +1,6 @@
 /*=================================[ HEADER ]========================================*/
 .header {
 	position: relative;
-	min-height: 100vh;
-	height: 100%;
 }
 
 .header__container {}
@@ -87,6 +85,7 @@
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
+	gap: 15px;
 }
 
 .header__middle-contacts:after {
@@ -105,12 +104,6 @@
 }
 
 .contacts {}
-
-.contacts__item {
-	display: flex;
-	align-items: center;
-}
-
 
 
 .contacts__item-iconwrap {
