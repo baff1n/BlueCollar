@@ -1,6 +1,5 @@
 @import 'refresh_styles.css';
 @import 'vars.css';
-@import 'media.css';
 @import 'header.css';
 @import 'welcome.css';
 @import 'services.css';
@@ -34,9 +33,9 @@ body {
 }
 /*---------------------------------*/
 [class*="__container"] {
-	max-width: 1230px;
+	max-width: 1240px;
 	margin: 0 auto;
-	padding: 0px 15px;
+	padding: 0px 25px;
 }
 /*=================================[ Modifications ]========================================*/
 

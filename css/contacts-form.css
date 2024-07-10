@@ -49,6 +49,7 @@
 .form__btn {
 	font-size: 18px;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 .formbold--mx-3 {
