@@ -74,7 +74,9 @@
 	padding: 35px 40px;
 }
 
-.item-grid {}
+.item-grid {
+	border-radius: 8px;
+}
 
 .item-grid__special {
 	align-self: flex-start;
@@ -91,6 +93,11 @@
 .item-grid__image img {
 	width: 100%;
 	height: 200px;
+	transition: all .25s ease-in-out;
+}
+
+.item-grid__image img:hover {
+	transform: scale(1.2);
 }
 
 .item-grid__title {
