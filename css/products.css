@@ -1,11 +1,23 @@
 .products {
+	position: relative;
 	height: 100%;
-	padding: 60px 0px;
-	background-color: transparent;
+	padding: 60px 0;
 	z-index: 30;
+	background-image: url(../img/services/services-bg.webp);
+	background-position: top right;
+	background-size: cover;
 }
 
-.products::before {}
+.products::before {
+	display: none;
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0, .01);
+}
 
 .products__content {
 	display: flex;
@@ -19,7 +31,7 @@
 	font-family: 'Mulish', sans-serif;
 	font-weight: bold;
 	margin-bottom: 50px;
-	color: #1C2752;
+	color: var(--dark-navy);
 }
 
 .products__grid {
@@ -56,8 +68,7 @@
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(1, 1fr);
 	gap: 15px;
-
-	background-color: rgb(28, 39, 82, .93);
+	background-color: rgba(var(--dark-navy-rgb), .93);
 	padding: 35px 40px;
 }
 
@@ -80,12 +91,10 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-
 }
 
 .item-card__header-block {
 	margin-bottom: 20px;
-
 }
 
 .item-card__title {
@@ -97,8 +106,6 @@
 .item-card__text {
 	margin-left: 10px;
 }
-
-.item-card__advantages {}
 
 .item-card__advantages-list {
 	font-size: 14px;
@@ -151,7 +158,7 @@
 	padding: 6px 12px 6px 33px;
 	margin-bottom: 8px;
 	color: inherit;
-	transition: all .25s ease-in-out;
+	transition: var(--transition);
 }
 
 .item-card__documentation-link:hover {
@@ -169,11 +176,10 @@
 	font-size: 16px;
 }
 
-
 table {
 	color: #fff;
 	width: 100%;
-	background-color: rgb(28, 39, 82, .93);
+	background-color: rgba(var(--dark-navy-rgb), .93);
 }
 
 td,
@@ -189,7 +195,7 @@ th {
 }
 
 tbody tr {
-	background-color: rgb(28, 39, 0, .23);
+	background-color: rgba(var(--dark-navy-rgb), .23);
 
 }
 
@@ -204,14 +210,10 @@ tbody tr {
 .specifications__list {
 	padding-left: 30px;
 }
-.specifications__item {
-}
-.specifications__child-list {
-}
+
 .specifications__child-item {
 	display: flex;
 	padding-left: 30px;
-
 }
 
 .download__datasheet {
@@ -222,7 +224,7 @@ tbody tr {
 }
 
 .download__datasheet img {
-	transition: all .25s ease-in-out;
+	transition: var(--transition);
 }
 
 .download__datasheet img:hover {

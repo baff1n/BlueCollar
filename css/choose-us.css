@@ -8,7 +8,7 @@
 .choose-us-container {
 	max-width: 1470px;
 	margin: 0 auto;
-	padding: 0px 15px;
+	padding: 0 15px;
 }
 
 .choose-us__body {
@@ -26,14 +26,12 @@
 }
 
 .choose-us__left-substrate {
-	background: rgba(28, 39, 82, 0.86);
+	background: rgba(var(--dark-navy-rgb), 0.86);
 	padding: 40px;
 }
 
-.substrate-left {}
-
 .substrate-left__item:not(:last-child) {
-	margin: 0px 0px 20px 0px;
+	margin: 0 0 20px 0;
 }
 
 .item-substrate {
@@ -51,22 +49,22 @@
 	justify-content: center;
 	padding: 15px;
 	font-size: 24px;
-	color: #1C2752;
+	color: var(--dark-navy);
 	cursor: pointer;
 	background-image: var(--special-hover-bgi);
 	background-size: 300% 100%;
-	transition: all .4s ease-in-out;
+	transition: var(--transition);
 }
 
 .item-substrate__value svg {
-	fill: rgba(28, 39, 82, 0.86);
+	fill: rgba(var(--dark-navy-rgb), 0.86);
 	height: 40px;
 	width: 40px;
 }
 
 .item-substrate__value:hover {
 	background-position: 99% 0;
-	transition: all .4s ease-in-out;
+	transition: var(--transition);
 }
 
 .item-substrate__text {
@@ -84,19 +82,19 @@
 /*---------------------------------*/
 .choose-us__right {
 	flex: 0 1 auto;
-	color: #7E7E7E;
+	color: var(--muted-text__color);
 }
 
 .choose-us__header {
-	margin: 0px 0px 40px 0px;
+	margin: 0 0 40px 0;
 }
 
 .choose-us__block-header {
-	margin: 0px 0px 23px 0px;
+	margin: 0 0 23px 0;
 }
 
 .choose-us__title {
-	margin: 0px 0px 50px 0px;
+	margin: 0 0 50px 0;
 	max-width: 606px;
 	line-height: 1.1;
 }
@@ -111,7 +109,7 @@
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 1fr;
 	grid-column-gap: 20px;
-	grid-row-gap: 0px;
+	grid-row-gap: 0;
 }
 
 .choose-us__advantage-left {
@@ -124,11 +122,11 @@
 
 .content-choose-us__item {
 	position: relative;
-	padding: 0px 0px 0px 37px;
+	padding: 0 0 0 37px;
 }
 
 .content-choose-us__item:not(:last-child) {
-	margin: 0px 0px 25px 0px;
+	margin: 0 0 25px 0;
 }
 
 .content-choose-us__item::before {
@@ -148,8 +146,8 @@
 	font-size: 20px;
 	line-height: 28px;
 	letter-spacing: 0.36px;
-	color: #1C2752;
-	margin: 0px 0px 8px 0px;
+	color: var(--dark-navy);
+	margin: 0 0 8px 0;
 }
 
 .content-choose-us__text {

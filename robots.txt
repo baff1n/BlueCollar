@@ -1,0 +1,15 @@
+Sitemap: https://sintez-elektro.ru/sitemap.xml
+Crawl-delay: 5
+User-agent: *
+
+Allow: /products/dc-dc/
+Allow: /products/ac-dc/
+Allow: /products/modules/
+Allow: /products/dc-dc/_rpv.html
+Allow: /products/dc-dc/_rpd.html
+Allow: /products/ac-dc/_rpa.html
+Allow: /products/ac-dc/_rpva.html
+Allow: /products/ac-dc/_rps.html
+Allow: /products/modules/_rpf.html
+Allow: /products/modules/_rpfa.html
+Allow: /products/modules/_rpfo.html

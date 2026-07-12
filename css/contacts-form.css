@@ -37,19 +37,39 @@
 	background: white;
 	font-weight: 500;
 	font-size: 16px;
-	color: #6b7280;
+	color: var(--main-blue);
 	outline: none;
-	resize: none;
+	resize: vertical;
 }
 .formbold-form-input:focus {
 	border-color: #6a64f1;
-	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
 }
 
 .form__btn {
 	font-size: 18px;
 	font-weight: bold;
 	cursor: pointer;
+}
+
+.form__btn:disabled {
+	opacity: .6;
+	cursor: not-allowed;
+}
+
+.form__status {
+	margin-top: 16px;
+	font-size: 15px;
+	font-weight: 500;
+	min-height: 20px;
+}
+
+.form__status--success {
+	color: #1c9c5e;
+}
+
+.form__status--error {
+	color: var(--red-accent__color);
 }
 
 .formbold--mx-3 {

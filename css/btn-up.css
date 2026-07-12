@@ -12,7 +12,7 @@
   height: 50px;
 	background-image: var(--special-hover-bgi);
 	background-size: 300% 100%;
-	transition: all .4s ease-in-out;
+	transition: var(--transition);
 	z-index: 1000;
 }
 
